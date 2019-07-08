@@ -1,0 +1,23 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "gh-pages": "^2.0.1",
+    "isomorphic-fetch": "^2.2.1",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "server": "nodemon server.js",
+    "deploy":"gh-pages -d public"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://Yerokkim.github.io/Temp"
+}
