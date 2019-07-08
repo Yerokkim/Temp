@@ -1,0 +1,18 @@
+body {
+    background-image: url("./ben-den-engelsen-H-TVLO6N8Do-unsplash.jpg"); 
+    background-color: #cccccc;
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
+  }
+
+
+#map {
+              width: 50%;
+              height: 400px;
+              background-color: grey;
+              position: center;
+            }
+    
