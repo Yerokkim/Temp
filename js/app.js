@@ -11,7 +11,7 @@ console.log(cities)
 async function getWeather(){
 
      let allWeather= await cities.map(city => 
-      fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city},de&units=metric&APPID=${weather_key}`)
+      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},de&units=metric&APPID=${weather_key}`)
       .then(res => res.json())
        .then(json => {
             
